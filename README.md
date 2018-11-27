@@ -21,13 +21,21 @@ O arquivo responsavel por calcular e gerar o arquivo que contem o p-value é o b
 ## Dependencias
 É necessario instalar as seguintes dependencias:
 
-math        $pip3 install math
+math:
 
-numpy       $pip3 install numpy
+$pip3 install math
 
-pickle      $pip3 install pickle
+numpy:
 
-scipy       $pip3 install scipy
+$pip3 install numpy
+
+pickle:
+
+$pip3 install pickle
+
+scipy:
+
+$pip3 install scipy
 
 ## Execução
 Este script deve ser iniciado executando o seguinte comando:
@@ -43,9 +51,13 @@ o script responsavel por gerar os dataframes para analise dos dados é o MegaDad
 ## Dependencias
 É necessario instalar as seguintes dependencias:
 
-pickle  		    $pip3 install pickle
+pickle:
 
-jupyter notebook    $pip3 install jupyter-notebook
+$pip3 install pickle
+
+jupyter notebook:
+
+$pip3 install jupyter-notebook
 
 ## Execução
 Este script pode ser executado na plataforma do jupyter, para acessa-la execute o seguinte comando:
