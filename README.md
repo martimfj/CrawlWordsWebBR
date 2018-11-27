@@ -55,10 +55,9 @@ o arquivo responsavel por gerar os dataframes com visualização de resultados �
 
 pickle      pip3 install pickle
 
-
 #Execução
 Este script deve ser executado na plataforma do jupyter, para acessa-la execute o seguinte comando:
 
 jupyter notebook
 
-Em seguida é necessario acessar este arquivo.
+Em seguida é necessario acessar este arquivo manualmente.
