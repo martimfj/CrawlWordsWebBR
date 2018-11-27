@@ -2,7 +2,7 @@ import math
 import numpy as np
 import pickle
 from scipy.stats import norm
-dummy = 1000
+
 #Nt = quantidade da palavra no dicionario total
 #Ne = quantidade da palavra no dicionario do estado
 #Pt = fracao da palavra/todas as palavras no dic total
@@ -42,12 +42,12 @@ for estado, dic_estado in dic_load.items():
     total_capital  = get_total(dic_estado)
 
     for palavra, Ne in dic_estado.items():
+        if Ne < 1000:
+            continue
         Nt = dic_geral_load[palavra] if palavra in dic_geral_load else 0.0
-        Nt += 1000
-        Ne += 1000
         Pt = Nt / total
         Pe = Ne / total_capital
         pvalue  = calcula_pvalue(Nt, Ne, Pt, Pe)
-        dic_final[estado].append((palavra, Pt, Pe, pvalue))
+        dic_final[estado].append((palavra, Pt, Pe, pvalue, Nt, Ne))
 
 save(dic_final, "./Pickle/palavras_pvalue.pickle")
