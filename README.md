@@ -10,7 +10,7 @@ Membros: Martim F., Sabrina S., Leonardo M
 
 ## Como Usar
 
-Para utilizar este programa é necessario rodar primeiramente o script br-web-crawler.py, para gerar o arquivo para analise, e em seguida rodar o script MegaDadosFinal.ipynb, que consome esse arquivo. 
+Para utilizar este programa é necessario rodar primeiramente o script br-web-crawler.py, que gera o arquivo utilizado para a analise, e em seguida rodar o script MegaDadosFinal.ipynb, que consome esse arquivo. 
 
 Caso o script br-web-crawler ja tenha sido executado anteriormente ou você já possua o arquivo "palavras_pvalue.pickle", não é necessário rodá-lo novamente.
 
