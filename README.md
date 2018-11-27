@@ -47,8 +47,6 @@ python3 br-web-craeler.py
 geraldo como resultado o arquivo de pvalues denominado palavras_pvalue.pickle 
 
 
-#---------------------------------------------------------------------
-
 # Gerar Dataframe e resultados
 o arquivo responsavel por gerar os dataframes com visualização de resultados é denominado MegaDadosFinal.ipynb
 
