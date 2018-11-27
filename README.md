@@ -6,7 +6,7 @@ Este é o projeto final da disciplina Megadados (2018.2) do curso de Engenharia 
 
 ## Como utilizar
 ### Pipeline (Extract)
-O Pipeline implementado no cluster EMR da AWS rodou o programa desenvolvido em PySpark no Zeppelin, que originou os arquivos pickle *frequencia_palavras_big.pickle* para a contagem de palavras da web brasileira. E o arquivo *frenquencia_palavras_geral_big* para a contagem de palavras para cada capital de Estado brasileiro. Para executar essa etapa, crie um cluester EMR na AWS com Zeppelin, importe o notebook (*crawler_br_code.json*) e rode as células.
+O Pipeline implementado no cluster EMR da AWS rodou o programa desenvolvido em PySpark no Zeppelin, que originou os arquivos pickle *frenquencia_palavras_geral_big* para a contagem de palavras da web brasileira. E o arquivo *frequencia_palavras_big.pickle* para a contagem de palavras para cada capital de Estado brasileiro. Para executar essa etapa, crie um cluester EMR na AWS com Zeppelin, importe o notebook (*crawler_br_code.json*) e rode as células.
 
 Caso queira apenas visualizar a pipeline criada, isso pode ser feito [aqui](https://www.zepl.com/viewer/notebooks/bm90ZTovL21hcnRpbWZqLzdjNDIyMTgyY2U3ZDQyZjk4NWNkZWU5ODQ1NDk0ZDEzL25vdGUuanNvbg) por meio da plataforma Zepl. 
 
