@@ -31,7 +31,7 @@ Em contrapartida, é possível que palavras tenham frequências totalmente diver
 
 ### Mecanismos para Cálculo do p-value
 ------
-Foi calculado um pvalue experimental de cada palavra em seu respectivo BOW, usando como parâmetro a fórmula de __________.
+Foi calculado um pvalue experimental de cada palavra em seu respectivo BOW, usando como parâmetro o teste de hipotese para distribuição binomial.
 
 
 
